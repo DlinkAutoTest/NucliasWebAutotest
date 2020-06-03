@@ -1,5 +1,3 @@
 print('hello python & git')
 print('1sdfsdfsdf')
-print('nuclias')
-print('nuclias')
-print('nuclias')
+print('test@@@')
