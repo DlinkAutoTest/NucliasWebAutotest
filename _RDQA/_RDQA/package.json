@@ -1,0 +1,21 @@
+{
+  "name": "rdqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ui_shard.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mochawesome": "=3.1.1",
+    "mochawesome-report-generator": "=3.1.5",
+    "puppeteer": "^2.0.0",
+    "mocha": "^5.2.0"
+  }
+}
