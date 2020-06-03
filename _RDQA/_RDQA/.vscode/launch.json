@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "preLaunchTask": "clean",
+			"name": "mocha",
+			"type": "node",
+      "program": "/Users/jason/.nvm/versions/node/v8.16.0/bin/mocha",
+      "request": "launch",
+			"stopOnEntry": false,
+			"args": ["test/sample",  "--colors", "--reporter", "mochawesome", "--reporter-options", "overwrite=false,code=false"],
+			"cwd": "${workspaceFolder}/",
+      "runtimeExecutable": null,
+      "env": { "NODE_ENV": "production", "TEST_ACCOUNT": "u334567890+my73B.ORG.user.0@gmail.com", "PASSWORD": "bizcloud", "SITE": "inrd"},
+		}
+  ]
+}
